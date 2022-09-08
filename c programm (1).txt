@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int n,s,p=0;
+    printf("Enter the N value: ");
+    scanf("%d",&n);
+    while(n>0){
+        s=n%10;
+        p=p+s;
+        n=n/10;
+    }
+    printf("The sum of digits number is %d",p);
+}
+ 
+
+output
+Enter the N value: 153
+The sum of digits number is 9
+
+//I have used online compiler in order to complete my task, which you have given.
